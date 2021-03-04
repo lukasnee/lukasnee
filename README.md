@@ -30,7 +30,7 @@ If you use Windows + Visual Studio Code + Git Bash this is a very useful vscode 
 
 ### Installation
 1. Open VScode
-2. Press `ctrl + shift + p`, type `open user tasks` and press ENTER
+2. Press `F1`, type `open user tasks` and press ENTER
 3. Insert code below and save.
 ### Usage
 1. Press `ctrl + p`
