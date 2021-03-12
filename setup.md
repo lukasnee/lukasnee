@@ -48,3 +48,8 @@ If you use Windows + Visual Studio Code + Git Bash this is a very useful vscode 
     ]
 }
 ```
+# Shell Tricks
+Generate a random data file of given size in bytes  
+```shell
+$ head -c 1024 /dev/urandom > 1KB.dat
+```
