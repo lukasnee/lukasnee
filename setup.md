@@ -11,6 +11,10 @@ git config --global alias.cane 'commit --amend --no-edit'
 git config --global alias.fa 'fetch --all'
 git config --global alias.llg 'll --graph'
 git config --global alias.me 'config --global user.name'
+git config --global alias.puf 'pull -f'
+git config --global alias.co 'checkout'
+git config --global alias.cob 'co -b'
+git config --global alias.rc 'rebase --continue'
 ```
 > Usage example: `$ git llg` is synonymous to `$ git log --pretty=oneline --abbrev-commit --graph`
 
