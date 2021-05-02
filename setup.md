@@ -15,7 +15,7 @@ git config --global alias.co 'checkout'
 git config --global alias.cob 'co -b'
 git config --global alias.rc 'rebase --continue'
 ```
-> Usage example: `$ git llg` is synonymous to `$ git log --pretty=oneline --abbrev-commit --graph`
+> Usage example: `$ git cane` is synonymous to `$ commit --amend --no-edit`
 
 # VScode
 
