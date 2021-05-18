@@ -2,7 +2,7 @@
 # Git
 Useful aliases (command shortcuts) you can add:
 ```shell
-git config --global alias.ll "log --pretty=format:'%C(yellow)%h %C(cyan)%as%<(8,trunc) %C(red)%cL %C(auto)%d %C(white)%s %C(black)%b %C(magenta)%N'"
+git config --global alias.ll "log --pretty=format:'%C(yellow)%h %C(cyan)%as%<(9,trunc) %C(magenta)%cL %C(auto)%d %C(yellow)%s %C(white)%b %C(red)%N'"
 git config --global alias.llme 'll --author="<YOUR NAME>"'
 git config --global alias.ds 'diff --stat'
 git config --global alias.ss 'show --stat'
