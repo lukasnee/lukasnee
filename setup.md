@@ -2,12 +2,12 @@
 # Git
 Useful aliases (command shortcuts) you can add:
 ```shell
+git config --global alias.lme 'll --author="<ENTER_YOUR_NAME>"'
 git config --global alias.me 'config --global user.name'
 git config --global alias.l "log --pretty=format:'%C(cyan)%h %C(blue)%as%<(9,trunc) %C(magenta)%cL %C(auto)%d %C(yellow)%s'"
 git config --global alias.ll "log --pretty=format:'%C(cyan)%h %C(blue)%as%<(9,trunc) %C(magenta)%cL %C(auto)%d %C(yellow)%s %C(white)%b %C(red)%N'"
 git config --global alias.lg 'l --graph'
 git config --global alias.llg 'll --graph'
-git config --global alias.lme 'll --author="<ENTER_YOUR_NAME>"'
 git config --global alias.cm 'commit -m'
 git config --global alias.ca 'commit --amend'
 git config --global alias.cane 'ca --no-edit'
