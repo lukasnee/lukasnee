@@ -56,6 +56,55 @@ If you use Windows + Visual Studio Code + Git Bash this is a very useful vscode 
     ]
 }
 ```
+## keybindings.json
+
+```json
+[
+    {
+        "key": "ctrl+alt+`",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "ctrl+k e",
+        "command": "workbench.explorer.fileView.focus"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.terminal.resizePaneUp"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.terminal.resizePaneDown"
+    },
+    {
+        "key": "alt+h",
+        "command": "workbench.action.terminal.resizePaneLeft"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.terminal.resizePaneRight"
+    },
+    {
+        "key": "shift+space s",
+        "command": "git.stageSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "shift+space u",
+        "command": "git.unstageSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "ctrl+shift+alt+b",
+        "command": "workbench.action.tasks.test"
+    },
+    {
+        "key": "ctrl+shift+alt+5",
+        "command": "workbench.action.toggleMaximizedPanel"
+    }
+]
+```
+
 # Shell Tricks
 Generate a random data file of given size in bytes  
 ```shell
