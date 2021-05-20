@@ -60,48 +60,23 @@ If you use Windows + Visual Studio Code + Git Bash this is a very useful vscode 
 
 ```json
 [
-    {
-        "key": "ctrl+alt+`",
-        "command": "workbench.action.focusActiveEditorGroup"
-    },
-    {
-        "key": "ctrl+k e",
-        "command": "workbench.explorer.fileView.focus"
-    },
-    {
-        "key": "alt+k",
-        "command": "workbench.action.terminal.resizePaneUp"
-    },
-    {
-        "key": "alt+j",
-        "command": "workbench.action.terminal.resizePaneDown"
-    },
-    {
-        "key": "alt+h",
-        "command": "workbench.action.terminal.resizePaneLeft"
-    },
-    {
-        "key": "alt+l",
-        "command": "workbench.action.terminal.resizePaneRight"
-    },
-    {
-        "key": "shift+space s",
-        "command": "git.stageSelectedRanges",
-        "when": "isInDiffEditor"
-    },
-    {
-        "key": "shift+space u",
-        "command": "git.unstageSelectedRanges",
-        "when": "isInDiffEditor"
-    },
-    {
-        "key": "ctrl+shift+alt+b",
-        "command": "workbench.action.tasks.test"
-    },
-    {
-        "key": "ctrl+shift+alt+5",
-        "command": "workbench.action.toggleMaximizedPanel"
-    }
+    // lukasnee specials
+    { "key": "ctrl+alt+`", "command": "workbench.action.focusActiveEditorGroup" },
+    { "key": "ctrl+k e", "command": "workbench.explorer.fileView.focus" },
+    
+    { "key": "ctrl+shift+alt+b", "command": "workbench.action.tasks.test" },
+    
+    { "key": "shift+space i","command": "editor.action.indentationToSpaces" },
+    { "key": "shift+space s", "command": "git.stageSelectedRanges", "when": "isInDiffEditor" },
+    { "key": "shift+space u", "command": "git.unstageSelectedRanges", "when": "isInDiffEditor" },
+    { "key": "shift+space p", "command": "workbench.action.problems.focus" },
+    { "key": "shift+space t", "command": "workbench.action.toggleMaximizedPanel"},
+    
+    { "key": "alt+k", "command": "workbench.action.terminal.resizePaneUp" },
+    { "key": "alt+j", "command": "workbench.action.terminal.resizePaneDown" },
+    { "key": "alt+h", "command": "workbench.action.terminal.resizePaneLeft" },
+    { "key": "alt+l", "command": "workbench.action.terminal.resizePaneRight" },
+    { "key": "shift+space b", "command": "workbench.action.tasks.runTask", "args": "Build All (Release)" },
 ]
 ```
 
