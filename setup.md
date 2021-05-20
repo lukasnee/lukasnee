@@ -2,18 +2,23 @@
 # Git
 Useful aliases (command shortcuts) you can add:
 ```shell
-git config --global alias.ll "log --pretty=format:'%C(yellow)%h %C(cyan)%as%<(9,trunc) %C(magenta)%cL %C(auto)%d %C(yellow)%s %C(white)%b %C(red)%N'"
-git config --global alias.llme 'll --author="<YOUR NAME>"'
-git config --global alias.ds 'diff --stat'
-git config --global alias.ss 'show --stat'
-git config --global alias.cm 'commit -m'
-git config --global alias.cane 'commit --amend --no-edit'
-git config --global alias.fa 'fetch --all'
-git config --global alias.llg 'll --graph'
 git config --global alias.me 'config --global user.name'
+git config --global alias.l "log --pretty=format:'%C(cyan)%h %C(blue)%as%<(9,trunc) %C(magenta)%cL %C(auto)%d %C(yellow)%s'"
+git config --global alias.ll "log --pretty=format:'%C(cyan)%h %C(blue)%as%<(9,trunc) %C(magenta)%cL %C(auto)%d %C(yellow)%s %C(white)%b %C(red)%N'"
+git config --global alias.lg 'l --graph'
+git config --global alias.llg 'll --graph'
+git config --global alias.lme 'll --author="<ENTER_YOUR_NAME>"'
+git config --global alias.cm 'commit -m'
+git config --global alias.ca 'commit --amend'
+git config --global alias.cane 'ca --no-edit'
 git config --global alias.co 'checkout'
 git config --global alias.cob 'co -b'
+git config --global alias.ds 'diff --stat'
+git config --global alias.ss 'show --stat'
+git config --global alias.fa 'fetch --all'
 git config --global alias.rc 'rebase --continue'
+git config --global alias.checkrec 'checkout --recurse-submodules'
+
 ```
 > Usage example: `$ git cane` is synonymous to `$ commit --amend --no-edit`
 
