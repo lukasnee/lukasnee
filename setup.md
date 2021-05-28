@@ -56,11 +56,13 @@ If you use Windows + Visual Studio Code + Git Bash this is a very useful vscode 
     ]
 }
 ```
-## keybindings.json
+## User/keybindings.json
+
+> win full path: `C:\Users\<USERNAME>\AppData\Roaming\Code\User\keybindings.json`
+
 
 ```json
 [
-    // lukasnee specials
     { "key": "ctrl+alt+`", "command": "workbench.action.focusActiveEditorGroup" },
     { "key": "ctrl+k e", "command": "workbench.explorer.fileView.focus" },
     
@@ -77,12 +79,29 @@ If you use Windows + Visual Studio Code + Git Bash this is a very useful vscode 
     { "key": "alt+h", "command": "workbench.action.terminal.resizePaneLeft" },
     { "key": "alt+l", "command": "workbench.action.terminal.resizePaneRight" },
     { "key": "shift+space b", "command": "workbench.action.tasks.runTask", "args": "Build All (Release)" },
+    
+    // User/tasks.json
+    {
+        "key": "ctrl+alt+1",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Open Git Bash in terminal view 1"
+    },
+    {
+        "key": "ctrl+alt+2",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Open Git Bash in terminal view 2"
+    },
+    {
+        "key": "ctrl+alt+3",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Open Git Bash in terminal view 3"
+    }
 ]
 ```
 
 ## User/tasks.json
 
-> windows path: `C:\Users\<USERNAME>\AppData\Roaming\Code\User\tasks.json`
+> win full path: `C:\Users\<USERNAME>\AppData\Roaming\Code\User\tasks.json`
 
 ```json
 {
