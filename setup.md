@@ -80,6 +80,63 @@ If you use Windows + Visual Studio Code + Git Bash this is a very useful vscode 
 ]
 ```
 
+## User/tasks.json
+
+> windows path: `C:\Users\<USERNAME>\AppData\Roaming\Code\User\tasks.json`
+
+```json
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Open Git Bash in terminal view 1",
+            "type": "shell",
+            "dependsOn" : [ "Open Git Bash in terminal view" ],
+            "windows": {
+                "command": "powershell",
+                "args": ["git-cmd.exe --command=\"usr/bin/bash.exe\" -l -i "]
+            },
+            "presentation": {
+                "echo": false,
+                "focus": true,
+                "panel": "new",
+                "group": "git"
+            }
+        },
+        {
+            "label": "Open Git Bash in terminal view 2",
+            "type": "shell",
+            "windows": {
+                "command": "powershell",
+                "args": ["git-cmd.exe --command=\"usr/bin/bash.exe\" -l -i "]
+            },
+            "presentation": {
+                "echo": false,
+                "focus": true,
+                "panel": "new",
+                "group": "git"
+            }
+        },
+        {
+            "label": "Open Git Bash in terminal view 3",
+            "type": "shell",
+            "windows": {
+                "command": "powershell",
+                "args": ["git-cmd.exe --command=\"usr/bin/bash.exe\" -l -i "]
+            },
+            "presentation": {
+                "echo": false,
+                "focus": true,
+                "panel": "new",
+                "group": "git"
+            }
+        }
+    ]
+}
+```
+
 # Shell Tricks
 Generate a random data file of given size in bytes  
 ```shell
