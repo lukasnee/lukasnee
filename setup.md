@@ -85,17 +85,22 @@ If you use Windows + Visual Studio Code + Git Bash this is a very useful vscode 
     
     // User/tasks.json
     {
-        "key": "ctrl+alt+1",
+        "key": "shift+space g",
         "command": "workbench.action.tasks.runTask",
         "args": "Open Git Bash in terminal view 1"
     },
     {
-        "key": "ctrl+alt+2",
+        "key": "shift+space 1",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Open Git Bash in terminal view 1"
+    },
+    {
+        "key": "shift+space 2",
         "command": "workbench.action.tasks.runTask",
         "args": "Open Git Bash in terminal view 2"
     },
     {
-        "key": "ctrl+alt+3",
+        "key": "shift+space 3",
         "command": "workbench.action.tasks.runTask",
         "args": "Open Git Bash in terminal view 3"
     }
