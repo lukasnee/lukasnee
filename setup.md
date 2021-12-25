@@ -18,7 +18,7 @@ git config --global alias.ds 'diff --stat'
 git config --global alias.ss 'show --stat'
 git config --global alias.fa 'fetch --all'
 git config --global alias.rc 'rebase --continue'
-git config --global alias.suri 'submodule update --recurse --init'
+git config --global alias.suri 'submodule update --recursive --init'
 git config --global alias.l5 'lg -t'
 git config --global alias.lgmh 'lg origin/master HEAD'
 
